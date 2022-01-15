@@ -2,8 +2,8 @@ import Config
 
 # Configure your database
 config :chatapp, Chatapp.Repo,
-  username: "postgres",
-  password: "551122",
+  username: "yourusername",
+  password: "yourpass",
   hostname: "localhost",
   database: "chatapp",
   show_sensitive_data_on_connection_error: true,
